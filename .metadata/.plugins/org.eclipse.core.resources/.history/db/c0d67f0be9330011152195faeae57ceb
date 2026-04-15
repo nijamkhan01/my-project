@@ -1,0 +1,31 @@
+package com.oops.java;
+
+public abstract class AbstructionBank {
+	public abstract void savings();
+	public abstract void current();
+	public abstract void salary();
+	public abstract void joint();
+	public void branchDetails() {
+		System.out.println("Kolkata");
+	}
+
+public class AxisBank extends AbstructionBank{
+	public void savings() {
+	System.out.println("Savings");	
+	}
+	public void current() {
+		System.out.println("current");
+	}
+	public void salary() {
+		System.out.println("Salary");	
+	}
+	public void joint() {
+		System.out.println("joint");
+	}
+	}
+
+public static void main(String args[])
+{
+	
+}
+}

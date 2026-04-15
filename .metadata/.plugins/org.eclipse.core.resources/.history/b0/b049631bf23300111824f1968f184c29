@@ -1,0 +1,28 @@
+package com.abstruction.java;
+
+public abstract class Bank {
+		public abstract void savings();
+
+		public abstract void current();
+
+		public abstract void salary();
+
+		public abstract void joint();
+
+		public void branchDetails() {
+			System.out.println("Kolkata");
+		}
+	}
+		
+/**Hiding the implementation part is called abstraction 
+it has 2 types, 
+1.Partially abstraction(abstract class) 
+2.Fully abstraction(interface)
+It can have abstract methods (no body)
+It can have concrete methods (with body) non abstract
+Only abstract methods (before Java 8)
+Default & static methods (Java 8+)
+we cannot create an object of an abstract class.
+any access specifier allowed
+abstract → must be overridden(final not allowed)
+**/

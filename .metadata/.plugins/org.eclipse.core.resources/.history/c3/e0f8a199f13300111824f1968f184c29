@@ -1,0 +1,16 @@
+package com.abstruction.java;
+
+public abstract class Bank {
+		public abstract void savings();
+
+		public abstract void current();
+
+		public abstract void salary();
+
+		public abstract void joint();
+
+		public void branchDetails() {
+			System.out.println("Kolkata");
+		}
+	}
+		

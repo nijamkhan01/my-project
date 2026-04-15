@@ -1,0 +1,32 @@
+package com.oops.java;
+class Animal{
+	void sound() {
+		System.out.println("Animal Makes Sound.");
+	}
+	void sound(String type) {
+		System.out.println("Animal Sounds: "+type);
+	}
+}
+class Dog extends Animal{
+	@Override
+	void sound(String type) {
+		System.out.println("Dog sounds: "+type);
+	}
+	void Display() {
+		super.sound();
+		super.sound("good");
+	}
+}
+public class Polymorphism {
+public static void main(String[] args) {
+	Animal a= new Animal();
+	Dog d=new Dog();
+	Animal poly=new Dog();
+	
+	a.sound();
+	a.sound("loud");
+	d.sound("soft");
+	poly.sound("slow");
+	d.Display();
+}
+}

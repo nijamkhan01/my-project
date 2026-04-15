@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+F:\NijamWeb\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1313990064.index
+205084190.index
+3081833486.index
+3950908433.index
+189038099.index
+2885374048.index

@@ -1,0 +1,23 @@
+package com.nijam;
+
+public class SwitchCase {
+	// cONDITIONAL STATEMENT
+	public void dayCheck() {
+		int day = 3;
+		switch (day) {
+		case 1:
+			System.out.println("Monday");
+			break;
+		case 2:
+			System.out.println("Tuesday");
+			break;
+		default:
+			System.out.println("Wed-Sun");
+		}
+	}
+
+	public static void main(String[] args) {
+		SwitchCase sc = new SwitchCase();
+		sc.dayCheck();
+	}
+}

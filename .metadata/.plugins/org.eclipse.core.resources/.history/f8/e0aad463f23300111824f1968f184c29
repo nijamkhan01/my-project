@@ -1,0 +1,29 @@
+package com.abstruction.java;
+
+public class HDFCBank extends Bank {
+	public void savings() {
+		System.out.println("Tumpa Bibi Savings Account");
+	}
+	public void current() {
+		System.out.println("Current");
+	}
+	public void salary() {
+		System.out.println("salary");
+	}
+	public void joint() {
+		System.out.println("joint");
+	}
+	public void branchDetails() {
+		System.out.println("Murshidabad");
+	}
+	
+	public static void main(String[] args) {
+		Bank hb=new HDFCBank();
+		hb.savings();
+		hb.current();
+		hb.salary();
+		hb.joint();
+		hb.branchDetails();
+	}
+
+}

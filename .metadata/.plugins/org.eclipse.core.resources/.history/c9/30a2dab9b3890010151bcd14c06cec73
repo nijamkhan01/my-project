@@ -1,0 +1,14 @@
+package com.nijam;
+
+public class Loop {
+	int num=100;
+	void printNumber() {
+		for(int i=num;i>=1;i=i--) {
+			System.out.println(i);
+		}
+	}
+	public static void main(String[] args) {
+		Loop lp=new Loop();
+		lp.printNumber();
+	}
+}

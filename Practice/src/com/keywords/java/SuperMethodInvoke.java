@@ -1,0 +1,25 @@
+package com.keywords.java;
+class Animals{
+	void eat() {
+		System.out.println("Animal can eat.");
+	}
+}
+class Dogs extends Animals{
+	void eat() {
+		System.out.println("Dog is eating.");
+	}
+	void bark() {
+		System.out.println("Dog is barking");
+	}
+	void work() {
+		super.eat();
+		bark();
+	}
+}
+public class SuperMethodInvoke {
+	public static void main(String[] args) {
+		Dogs d = new Dogs();
+		d.work();
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.abstruction.java;
+
+public class HDFCBank extends Bank {
+	public void savings() {
+		System.out.println("Savings");
+	}
+	public void current() {
+		System.out.println("Current");
+	}
+	public void salary() {
+		System.out.println("salary");
+	}
+	public void joint() {
+		System.out.println("joint");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
